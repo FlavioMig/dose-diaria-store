@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/living",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -47,6 +47,7 @@
           },
           "configurations": {
             "production": {
+            
               "budgets": [
                 {
                   "type": "initial",
@@ -59,7 +60,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/loja-dose-diaria/"
             },
             "development": {
               "optimization": false,
