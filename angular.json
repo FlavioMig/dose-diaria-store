@@ -61,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/loja-dose-diaria/"
+              "baseHref": "/loja-online/"
             },
             "development": {
               "optimization": false,
