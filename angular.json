@@ -61,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/loja-online/"
+              "baseHref": "/store/"
             },
             "development": {
               "optimization": false,
