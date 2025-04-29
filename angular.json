@@ -27,6 +27,7 @@
             "deployUrl": "/premier/",
             "index": "src/index.html",
             "browser": "src/main.ts",
+             "outputPath": "dist/living",
             "polyfills": [
               "zone.js"
             ],
@@ -61,8 +62,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all",
-              "outputPath": "dist"
+              "outputHashing": "all"
+              
+              
               
             },
             "development": {
