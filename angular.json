@@ -25,9 +25,9 @@
           "options": {
             "baseHref": "/premier/",
             "deployUrl": "/premier/",
-            "index": "src/index.html",
+            "index": "/index.html",
             "browser": "src/main.ts",
-             "outputPath": "dist/living",
+             "outputPath": "dist/",
             "polyfills": [
               "zone.js"
             ],
