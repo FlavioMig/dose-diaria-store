@@ -23,7 +23,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist",
+            "baseHref": "/premier/",
+            "deployUrl": "/premier/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,8 +61,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "/store/"
+              "outputHashing": "all"
+              
             },
             "development": {
               "optimization": false,
