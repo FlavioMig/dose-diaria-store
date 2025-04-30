@@ -23,9 +23,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/premier/",
-            "deployUrl": "/premier/",
-            "index": "/index.html",
+            "baseHref": "/dose-diaria-store/",
+            "deployUrl": "/dose-diaria-store/",
+            "index": "src/index.html",
             "browser": "src/main.ts",
              "outputPath": "dist/",
             "polyfills": [
@@ -111,6 +111,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
